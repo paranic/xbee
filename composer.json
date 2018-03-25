@@ -1,0 +1,21 @@
+{
+    "name": "paranic/xbee",
+    "description": "A PHP frame generator library for xbee devices.",
+    "keywords": ["xbee", "composer", "package", "frame", "generator", "protocol"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Parastatidis Nikos",
+            "email": "paranic@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Paranic\\Xbee\\": "src/"
+        }
+    }
+}
